@@ -1,0 +1,8 @@
+{
+  "scripts": {
+    "start": {
+      "cmd": "deno run src/index.ts",
+      "desc": "run my src/index.ts file"
+    }
+  }
+}

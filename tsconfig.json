@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+        "target": "ESNext", // Usamos la versión más reciente de ECMAScript
+        "module": "ESNext", // Importación y exportación de módulos ES
+        "moduleResolution": "Node", // Resolver los módulos al estilo de Node.js
+        "strict": true, // Activa todas las verificaciones estrictas de tipos
+        "esModuleInterop": true, // Habilitar interoperabilidad con los módulos de ECMAScript
+        "skipLibCheck": true, // Saltarse la comprobación de tipos de las dependencias
+        "forceConsistentCasingInFileNames": true, // Verifica que los nombres de los archivos sean consistentes (mayúsculas/minúsculas)
+        "noEmit": true // No genera archivos de salida, solo la verificación de tipos
+    },
+    "include": [
+        "src/**/*" // Incluye todos los archivos dentro de la carpeta 'src'
+    ]
+}
